@@ -8,7 +8,7 @@
 .form {
   position: relative;
   z-index: 1;
-  background-color: #fffcf5;
+  background-color: #eeeeee;
   max-width: 721px;
   margin: 0 auto 100px;
   padding: 25px;
@@ -95,7 +95,7 @@
   color: #EF3B3A;
 }
 body {
-  background-image: url(../images/Fondo5.png);
+  background-image: url(../images/unamFondo5.png);
  
   background-size: cover;
   font-family: "Roboto", sans-serif;     
@@ -105,7 +105,7 @@ h1{
     text-align: center;
 }
 .banner-img {
-	background: #f5ebd0;
+	background: #003D79;
         display:flex;
         justify-content: center;
 	color: #fff;

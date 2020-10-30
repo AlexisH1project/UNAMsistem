@@ -11,7 +11,7 @@ class usuariosDatos{
 		$usuarios = new usuarios();
 		$usuarios->usuario=$usuario;
 		$usuarios->contrasena = $pass;
-		mysqli_select_db($con,"bd_sistemadecontrol");
+		mysqli_select_db($con,"adminunam");
 		$sql = "INSERT INTO usuarios (usuario,contrasena) VALUES(
 		'".$usuarios->usuario."',
 		'".$usuarios->contrasena."'
@@ -32,7 +32,7 @@ class usuariosDatos{
 		$usuarios->usuario=$usuario;
 		$usuarios->contrasena = $pass;
         
-		mysqli_select_db($con,"bd_sistemadecontrol");
+		mysqli_select_db($con,"adminunam");
         
 		$sql = "SELECT * FROM usuarios WHERE usuario='".$usuarios->usuario."' and contrasena='".$usuarios->contrasena."'";
         $consulta = mysqli_query($con,$sql);

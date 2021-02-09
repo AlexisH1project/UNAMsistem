@@ -235,24 +235,6 @@
         </div>
 				<div class="p-4 ">
 
-		  		<img class="img-responsive" src="img/ss1.png" height="50" width="190">
-	        <ul class="list-unstyled components mb-5">
-	        	<br>
-	        	<center>
-	        	<li class=" estilo-color">
-	            <a ><img src="./img/iclogin.png" alt="x" height="17" width="17"/><?php echo (" $nombreU[0]"); ?></span></a>
-	          </li>
-	      </center>
-	        
-	          <li class=" estilo-color">
-	              <a href= <?php echo ("'./consultaEstado.php?usuario_rol=$usuarioSeguir'");?>><img src="./img/ic-consulta.png" alt="x" height="17" width="17"/> Consulta</a>
-	          </li>
-	          <li class=" estilo-color">
-	              <a href= <?php echo ("'./guardarVista.php?usuario_rol=$usuarioSeguir'");?>><img  src="./img/upload1.png" alt="x" height="17" width="20"/>Cargar registros </a>
-	          </li>
-	           <li class=" estilo-color">
-	              <a href= <?php echo ("'./qrtxt.php?usuario_rol=$usuarioSeguir'");?>><img  src="./img/qr.png" alt="x" height="17" width="20"/> Generar QR´s</a>
-	          </li>
 	          <br>
 	          <br>
 	          <br>
@@ -494,7 +476,7 @@
 		        <ul class="navbar-nav ml-auto">          
 		       
 		        	
-		        	<h3  class="estilo-colorn">Sistema de Control de Registro de Formato de Movimiento de Personal
+		        	<h3  class="estilo-colorn">UNAM
 		          </h3>
 		          <h3  class="estilo-colorv">............
 		          </h3>
@@ -502,7 +484,7 @@
 
 		         <ul class="navbar-nav ml-auto">          
 		      
-		         <h5 class=" estilo-color">Departamento Dirección General de Recursos Humanos y Organización/Dirección integral de puestos y servicios personales</h5>
+		         <h5 class=" estilo-color">admin</h5>
 		        </ul>  
 		      </div>
 		      <br>
